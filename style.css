@@ -1,0 +1,32 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: chocolate;
+}
+.tabuleiro {
+    width: 700px; 
+    height: 700px; 
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+  }
+  
+  .casa {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+    font-size: 50px;
+    line-height: 0;
+  }
+  
+  .branca {
+    background-color: #ffff; 
+  }
+  
+  .preta {
+    background-color: #000; 
+  }
